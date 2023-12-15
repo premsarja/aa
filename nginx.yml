@@ -3,6 +3,5 @@
   hosts: node1
   become: Yes
   tasks:
-    - name: nginx
+      name: nginx
       state: present
-      
