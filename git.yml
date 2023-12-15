@@ -1,8 +1,0 @@
-- name: install git
-  hosts: all
-  become: yes
-  tasks:
-    - name: install git
-      ansible.builtin.package:
-         name: git
-         state: present
